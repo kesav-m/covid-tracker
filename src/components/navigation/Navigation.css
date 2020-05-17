@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  z-index: 300;
+  background-color: #fff;
+  height: 100vh;
+  transition: 0.3s ease-in-out;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Close {
+  transform: translateX(-100%);
+}
+
+.trans {
+  transform: rotate(20deg);
+}

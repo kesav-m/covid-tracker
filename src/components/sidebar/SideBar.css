@@ -1,0 +1,10 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: none;
+  font-size: 25px;
+  height: 56px;
+  cursor: pointer;
+  color: #808080;
+}

@@ -1,0 +1,28 @@
+.district-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  cursor: pointer;
+}
+
+.district-table td,
+.district-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.district-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.district-table tr:hover {
+  background-color: #ddd;
+}
+
+.district-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #e2e3e5;
+  color: #383d41;
+}

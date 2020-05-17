@@ -1,0 +1,59 @@
+.customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.customers td,
+.customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customers tr:hover {
+  background-color: #ddd;
+}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+
+.dialog-enter {
+  opacity: 0.01;
+  transform: scale(1.2);
+}
+
+.dialog-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 300ms;
+}
+
+.dialog-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.dialog-exit-active {
+  opacity: 0.01;
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.expand {
+  padding-right: 5px;
+  transition: 0.5s;
+}
+.rotate {
+  transform: rotate(90deg);
+}

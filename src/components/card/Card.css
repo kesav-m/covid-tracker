@@ -1,0 +1,94 @@
+.card {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: calc(25% - 50px);
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.danger {
+  background-color: #f5c6cb;
+  color: #721c24;
+}
+.count {
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.active {
+  background-color: #b8daff;
+  color: #004085;
+}
+.recovered {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.blackout {
+  background-color: #d6d8d9;
+  color: #1b1e21;
+}
+
+.hospital-card {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: calc(50% - 40px);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .hospital-card {
+    width: 100%;
+  }
+}
+
+.medical-total {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .medical-total {
+    width: 100%;
+  }
+}
+.medical-total:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.himg {
+  padding: 0 50px 0 50px;
+}
+
+.head2 {
+  text-align: center;
+  color: #666c62e8;
+}
+.hspan {
+  padding: 0 50px 0 70px;
+}
